@@ -24,7 +24,15 @@ Fortsæt derefter med den næste fil.
 """
 
 def minimum(numberlist):
-    print(minimum([6, 2, 7, 3])) # Should print 2
-    print(minimum([8, 1, 17, 3, 5, 8, 3]))  # Should print 1
+    smallest = numberlist[0]
+    for number in numberlist:
+        if number < smallest:
+            smallest = number
+    return smallest
 
-minimum()
+
+# Test kald
+print(minimum([6, 2, 7, 3]))  # Skulle gerne udskrive 2
+print(minimum([8, 1, 17, 3, 5, 8, 3]))  # Skulle gerne udskrive 1
+
+#løst af AI, Og så har jeg prøvet at forstå det som den kode some den så har lavet :)

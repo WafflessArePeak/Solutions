@@ -38,6 +38,13 @@ Fortsæt derefter med den næste fil.
 
 
 # Here starts the main program. From the main program you can call your functions.
-def factorial(number)
-    result =
-    factorial_input = 5
+def factorial(number):
+
+    factorial=1
+
+    for input in range(number):
+        factorial *=input+1
+
+    return factorial
+
+print(factorial(5))

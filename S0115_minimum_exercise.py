@@ -24,11 +24,11 @@ Fortsæt derefter med den næste fil.
 """
 
 def minimum(numberlist):
-    smallest = numberlist[0]
+    egg = numberlist[0]
     for number in numberlist:
-        if number < smallest:
-            smallest = number
-    return smallest
+        if number < egg:
+            egg = number
+    return egg
 
 
 # Test kald

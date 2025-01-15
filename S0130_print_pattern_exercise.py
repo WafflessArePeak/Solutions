@@ -52,10 +52,13 @@ Fortsæt derefter med den næste fil.
 
 # Here starts the main program. From the main program you can call your functions.
 def print_repeatedly(string, repetitions):
-    print(string)
-
-    print_repeatedly("xy", 3)
+    for i in range(repetitions):
+        print(string, end="")
+        # print(f"hello {i} {string} {repetitions}", end="")
 
 def print_pattern(string, repetitions_list):
-    repetitions_list =
     print(string)
+
+
+# print_repeatedly("e", 6)
+print_pattern("e", [4, 2, 1])

@@ -61,4 +61,4 @@ def print_pattern(string, repetitions_list):
 
 
 # print_repeatedly("e", 6)
-print_pattern("e", [4, 2, 1])
+print_pattern("ee", [4, 2, 1])

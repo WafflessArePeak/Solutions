@@ -60,7 +60,7 @@ def print_repeatedly(string, repetitions):
 def print_pattern(string, repetitions_list):
     for repetitions in repetitions_list:
         print_repeatedly(string, repetitions)
-        print(end="")
+        print()
 
 # print_repeatedly("e", 6)
 print_pattern("ew", [4, 2, 1])
